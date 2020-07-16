@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Langston Deveraux",
+    "image": "https://vignette.wikia.nocookie.net/workaholics/images/4/4e/Workaholics_anders.jpg/revision/latest?cb=20160208083742",
+    "position": "Chief of Phones",
+    "department": "Sales",
+    "manager": "Michele Potential"
+  },
+  {
+    "id": 2,
+    "name": "Hank Marlboro",
+    "image": "https://vignette.wikia.nocookie.net/workaholics/images/5/5b/BlakeWorkaholics.jpg/revision/latest/scale-to-width-down/230?cb=20110609023729",
+    "position": "Head Chupacabra Hunter",
+    "department": "Sales",
+    "manager": "Michele Potential"
+  },
+  {
+    "id": 3,
+    "name": "Channing Merchandise",
+    "image": "https://vignette.wikia.nocookie.net/workaholics/images/4/46/AdamWorkaholics.jpg/revision/latest/scale-to-width-down/230?cb=20110609022040",
+    "position": "Office Prankster",
+    "department": "Sales",
+    "manager": "Michele Potential"
+  },
+  {
+    "id": 4,
+    "name": "Brick Pudding",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Brick.jpg/1200px-Brick.jpg",
+    "position": "Boy Genius",
+    "department": "Human Resources",
+    "manager": "Michele Potential"
+  },
+  {
+    "id": 5,
+    "name": "Ponch Gigabyte",
+    "image": "https://img.sharetv.com/shows/characters/large/workaholics.montez_walker.jpg",
+    "position": "Breadmaker in Charge",
+    "department": "Sales",
+    "manager": "Michele Potential"
+  },
+  {
+    "id": 6,
+    "name": "Michele Potential",
+    "image": "https://img.sharetv.com/shows/characters/large/workaholics.alice_murphy.jpg",
+    "position": "The Boss",
+    "department": "Middle Management",
+    "manager": "Corporate"
+  },
+  {
+    "id": 7,
+    "name": "Gabe Haliburton",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjE3MzgyNzAzOV5BMl5BanBnXkFtZTcwNTY5MjgwMw@@._V1_.jpg",
+    "position": "Phone Rep",
+    "department": "Sales",
+    "manager": "Michele Potential"
+  },
+  {
+    "id": 8,
+    "name": "Steven Truthchurch",
+    "image": "https://vignette.wikia.nocookie.net/dexter/images/1/15/Jet_Set_Hudson.jpg/revision/latest/scale-to-width-down/340?cb=20190625004312",
+    "position": "Ladies Man",
+    "department": "Human Resources",
+    "manager": "Michele Potential"
+  },
+  {
+    "id": 9,
+    "name": "Hammal Loosecannon",
+    "image": "https://img.sharetv.com/shows/characters/large/workaholics.karl_hevacheck.jpg",
+    "position": "Unknown",
+    "department": "Freedom",
+    "manager": "N/A"
+  },
+  {
+    "id": 10,
+    "name": "Vito Breech",
+    "image": "https://dg31sz3gwrwan.cloudfront.net/actor/211751/413850_medium-optimized-2.jpg",
+    "position": "Phone Rep",
+    "department": "Sales",
+    "manager": "Michele Potential"
+  },
+  {
+    "id": 11,
+    "name": "Margery Crossfit",
+    "image": "https://img.sharetv.com/shows/characters/large/workaholics.jillian_belk.jpg",
+    "position": "Assistant Manager",
+    "department": "Human Resources",
+    "manager": "Michele Potential"
+  },
+  {
+    "id": 12,
+    "name": "Magnus Crochey III",
+    "image": "https://m.media-amazon.com/images/M/MV5BYzI5NzkzZjYtYmY4ZS00M2E4LWEzNDItMjQ4N2JjNjQyMjJiXkEyXkFqcGdeQXVyMTE5NjA0MTI@._V1_UX214_CR0,0,214,317_AL_.jpg",
+    "position": "Account Manager",
+    "department": "Accounting",
+    "manager": "Michele Potential"
+  }
+]
