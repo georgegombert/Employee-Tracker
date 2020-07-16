@@ -1,7 +1,7 @@
 import React from 'react';
-import EmployeeCard from "./components/EmployeeCard"
-import NavBar from "./components/NavBar"
-import Wrapper from "./components/Wrapper"
+import EmployeeCard from "./components/EmployeeCard";
+import NavBar from "./components/NavBar";
+import Wrapper from "./components/Wrapper";
 import employees from "./employees.json";
 import './App.css';
 

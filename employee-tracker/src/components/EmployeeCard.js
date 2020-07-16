@@ -15,8 +15,8 @@ function EmployeeCard(props) {
         <li className="list-group-item" style={{ height: '4rem' }}><strong>Manager:</strong> {props.manager}</li>
       </ul>
       <div className="card-body d-flex justify-content-center">
-        <a href="#" class="btn btn-primary" style={{ height: '2rem' }}>View Employee</a>
-        <a onClick={() => props.removeEmployee(props.id)} class="btn btn-danger ml-1" style={{ height: '2rem' }}>Fire!</a>
+        <a href="#" class="btn btn-primary" style={{ height: '2.5rem' }}>Edit Employee</a>
+        <a onClick={() => props.removeEmployee(props.id)} class="btn btn-danger ml-1" style={{ height: '2.5rem' }}>Fire!</a>
       </div>
     </div>
   );
