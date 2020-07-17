@@ -33,7 +33,6 @@ class Navbar extends React.Component {
   };
 
   render() {
-    console.log(filteredEmployees);
     return (
       <nav className="navbar navbar-light bg-light justify-content-between">
         <a className="navbar-brand" href="#">
@@ -57,4 +56,7 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export {
+  Navbar,
+  filteredEmployees
+}
