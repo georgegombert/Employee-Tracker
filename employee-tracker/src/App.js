@@ -12,6 +12,12 @@ class App extends React.Component {
     employees
   };
 
+  handleFormSubmit = event => {
+    event.preventDefault();
+
+    console.log("button Clicked");
+  };
+
   removeEmployee = id => {
     // Filter this.state.employees for employees with an id not equal to the id being removed
     const employees = this.state.employees.filter(employee => employee.id !== id);
