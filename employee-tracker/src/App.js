@@ -21,9 +21,10 @@ class App extends React.Component {
   };
 
 
-
 // d-flex justify-content-center
+
   render() {
+    console.log("app", filteredEmployees);
     return (
       <>
         <Navbar></Navbar>

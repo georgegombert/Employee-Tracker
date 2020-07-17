@@ -23,7 +23,7 @@ class Navbar extends React.Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    
+    filteredEmployees = [];
     employees.map(employee => {
       if(employee.name.toLocaleLowerCase().includes(this.state.employeeName.toLocaleLowerCase())){
         filteredEmployees.push(employee);
@@ -31,6 +31,21 @@ class Navbar extends React.Component {
     })
     console.log(filteredEmployees);
   };
+
+  componentDidMount(){
+    filteredEmployees = [];
+    employees.map(employee => {
+      if(employee.name.toLocaleLowerCase().includes(this.state.employeeName.toLocaleLowerCase())){
+        filteredEmployees.push(employee);
+      }
+    })
+    console.log(filteredEmployees);
+  }
+
+  passEmployees = () => {
+    let employee = filteredEmployees;
+    this.props.getEmployees(employee);            
+  }
 
   render() {
     return (
