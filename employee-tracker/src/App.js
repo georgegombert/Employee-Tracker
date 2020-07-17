@@ -12,11 +12,6 @@ class App extends React.Component {
     employees
   };
 
-  handleFormSubmit = event => {
-    event.preventDefault();
-
-    console.log("button Clicked");
-  };
 
   removeEmployee = id => {
     // Filter this.state.employees for employees with an id not equal to the id being removed
@@ -24,6 +19,7 @@ class App extends React.Component {
     // Set this.state.friends equal to the new friends array
     this.setState({ employees });
   };
+
 // d-flex justify-content-center
   render() {
     return (

@@ -1,4 +1,7 @@
 import React from "react";
+import employees from "../employees.json";
+
+let filteredEmployees = [];
 
 class Navbar extends React.Component {
   // Setting the component's initial state
@@ -18,7 +21,19 @@ class Navbar extends React.Component {
     });
   };
 
+  handleFormSubmit = event => {
+    event.preventDefault();
+    
+    employees.map(employee => {
+      if(employee.name.toLocaleLowerCase().includes(this.state.employeeName.toLocaleLowerCase())){
+        filteredEmployees.push(employee);
+      }
+    })
+    console.log(filteredEmployees);
+  };
+
   render() {
+    console.log(filteredEmployees);
     return (
       <nav className="navbar navbar-light bg-light justify-content-between">
         <a className="navbar-brand" href="#">
@@ -35,7 +50,7 @@ class Navbar extends React.Component {
             </select>
           </div>
           <input className="form-control mr-sm-2" type="search" placeholder="Search Employees" aria-label="Search" onChange={this.handleInputChange} name="employeeName" />
-          <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button className="btn btn-outline-success my-2 my-sm-0" type="submit" onClick={this.handleFormSubmit}>Search</button>
         </form>
       </nav>
     )
